@@ -52,3 +52,7 @@ const info = function(name, course, school){
 info("steve", "backend dev", "New Horizons")
 
 //Assignment: Research on arrow functions with two examples
+
+// arrow function
+const logIn = name =>console.log(`${name} is logged in`);
+logIn("zeus");
